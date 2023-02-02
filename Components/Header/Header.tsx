@@ -1,9 +1,7 @@
 import React from "react";
 import SvgWaves from "../SvgWaves/SvgWaves";
 
-type Props = {};
-
-export default function Header({}: Props) {
+export default function Header() {
   return (
     <div className="relative h-[105vh] w-full overflow-hidden">
       <div
