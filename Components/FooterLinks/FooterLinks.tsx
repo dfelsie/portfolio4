@@ -25,7 +25,7 @@ export default function FooterLinks({}: Props) {
       text-center
       "
       >
-        My Contact Info
+        My Contact Info:
       </h5>
       <ul
         className="list-none

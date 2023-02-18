@@ -12,7 +12,7 @@ export default function Content({}: Props) {
           className="
         text-7xl
         leading-5
-        mt-4
+        mt-8
         font-black
         "
         >

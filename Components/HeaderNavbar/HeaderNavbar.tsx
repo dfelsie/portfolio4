@@ -20,7 +20,7 @@ export default function HeaderNavbar({}: Props) {
 
         text-xl
         md:text-2xl
-        transition duration-1000 ease-in-out
+        transition duration-700 ease-in-out
  hover:text-green-500
         "
       >
@@ -35,7 +35,7 @@ export default function HeaderNavbar({}: Props) {
         text-xl
         md:text-2xl
 
-        transition duration-500 ease-in-out
+        transition duration-700 linear
         hover:text-green-500 hover:underline
         "
       >

@@ -79,6 +79,7 @@ leading-5
 ml-2
 mr-3
 mt-0
+mb-2
 uppercase
 font-normal
 text-gray-500"
@@ -109,6 +110,8 @@ font-normal
                     inline-block
                     text-xs
                     rounded-sm
+                    transition duration-500 linear
+                    hover:bg-green-500
                   "
                   >
                     {val}
@@ -162,7 +165,6 @@ transition duration-200 ease-in-out
             flex-grow
             flex-shrink
             basis-[50%]
-            h-auto
             h-[29vw]
             w-1/2
             overflow-hidden
