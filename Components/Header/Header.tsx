@@ -3,10 +3,10 @@ import SvgWaves from "../SvgWaves/SvgWaves";
 
 export default function Header() {
   return (
-    <div className="relative h-[105vh]  w-full overflow-hidden">
+    <div className="relative h-[105vh] sm:h-[100vh]  w-full overflow-hidden">
       <div
         id="headerTextDiv"
-        className="absolute top-0 left-0 right-0 bottom-0 mt-[25vh] ml-4 mr-8 md:mx-[12em]
+        className="absolute top-0 left-0 right-0 bottom-0 mt-[15vh] md:mt-[25vh] ml-4 mr-8 md:mx-[12em]
         animate-pop-in transition duration-500
         "
       >
@@ -17,7 +17,7 @@ export default function Header() {
           </h1>
           <div
             className="
-          mt-8 text-2xl font-light mb-4"
+           sm:mt-8 text-2xl font-light mb-4"
           >
             I'm a fullstack engineer with statistical expertise. My work is
             split between web design, server programming, and statistical

@@ -21,7 +21,6 @@ export default function PortfolioItem({ project }: Props) {
         before:border-b-gray-400
         before:border-solid
 
-
         relative
         text-[1.1em]
         leading-5
@@ -165,7 +164,8 @@ transition duration-200 ease-in-out
             flex-grow
             flex-shrink
             basis-[50%]
-            h-[29vw]
+            md:h-[60vh]
+            h-[40vh]
             w-1/2
             overflow-hidden
 "

@@ -10,7 +10,8 @@ export default function Content({}: Props) {
       <div id="portfolio" className="pt-4 px-4 md:px-48">
         <h2
           className="
-        text-7xl
+        md:text-7xl
+        text-6xl
         leading-5
         mt-8
         font-black
