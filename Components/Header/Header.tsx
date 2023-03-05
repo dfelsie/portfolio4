@@ -3,7 +3,7 @@ import SvgWaves from "../SvgWaves/SvgWaves";
 
 export default function Header() {
   return (
-    <div className="relative h-[105vh] sm:h-[100vh]  w-full overflow-hidden">
+    <div className="relative h-[110vh] sm:h-[105vh]  w-full overflow-hidden">
       <div
         id="headerTextDiv"
         className="absolute top-0 left-0 right-0 bottom-0 mt-[15vh] md:mt-[25vh] ml-4 mr-8 md:mx-[12em]
