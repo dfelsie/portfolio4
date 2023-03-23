@@ -2,6 +2,20 @@ import { PortfolioProject } from "../Types/PortfolioProject";
 
 export const projsAry: PortfolioProject[] = [
   {
+    desc: `After reading a yougov article about how many Americans grossly misestimated the size of certain groups, I decided to build
+    a web app that would let me (and others!) check their own estimates, and see how they stacked up to the average guesser.
+
+    This was good practice for my skills with Next and Framer: getting some of the animations to work well can sometimes be tricky,
+    especially for full screen transitions: for whatever reason, sources other than the official docs tend to be fairly out of date. Nevertheless,
+    it wasn't too difficult, and I felt like the time spent creating the animations and the small additional bundle size was well worth it, given how much
+    visual interest good animation can add to the page. I hope you'll agree!`,
+    toolList: ["Tailwind", "Next.JS", "Framer"],
+    imgLink: "/assets/images/ameriGuessCap.webp",
+    preTitle: "Frontend React",
+    projectTitle: "America Guessing Game",
+    link: "https://percentguess.vercel.app/",
+  },
+  {
     desc: `When I was getting started with React, I was looking for a project that would let me practice both visualizations and
     basic programming. I'd seen a lot of sorting algorithms visualized, but they were mostly abstract looks that
     made actually understanding the underlying algorithm difficult. A particularly difficult one to grasp was
@@ -29,14 +43,7 @@ export const projsAry: PortfolioProject[] = [
     preTitle: "Fullstack JS",
     toolList: ["React", "Next.JS", "Framer"],
   },
-  /*   {
-    desc: "A simple mock up for a client's product site, built with responsive styling in mind.",
-    link: "https://sampleproductpage.vercel.app/",
-    projectTitle: "Product Mock Up",
-    imgLink: "/assets/images/sampleproductsite.webp",
-    preTitle: "Fullstack JS",
-    toolList: ["React", "Next.JS", "Framer"],
-  }, */
+
   {
     desc: `Shortly before the release of Chat-GPT, I wanted to try training an openAI model with custom data and practice my data cleaning.
     The goal was to take prompts and show summaries from an API endpoint, and use these to train an Davinci model. Then, I wanted to see
